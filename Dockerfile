@@ -4,5 +4,5 @@ RUN apt-get update
 
 RUN pip install flask
 
-CMD ["bash"] 
+CMD ["python", "server.py"] 
 
